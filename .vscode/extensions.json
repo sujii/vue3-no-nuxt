@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "vue.vscode-typescript-vue-plugin",
+    "antfu.iconify",
+    "antfu.unocss",
+    "antfu.vite",
+    "antfu.goto-alias",
+    "csstools.postcss",
+    "dbaeumer.vscode-eslint",
+    "imyangyong.fork",
+    "ms-vsliveshare.vsliveshare",
+    "ms-vsliveshare.vsliveshare-audio",
+    "ms-vsliveshare.vsliveshare-pack"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@sujii/vue3-no-nuxt",
+  "version": "1.0.0",
+  "description": "Vue3+Tsx Template: Easier Dev and Ops than Nuxt3.",
+  "license": "MIT",
+  "author": "@sujii",
+  "main": "lint-staged.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujii/vue3-no-nuxt"
+  },
+  "scripts": {
+    "api-client": "yarn workspace @sujii/vue3-no-nuxt-api-client",
+    "app": "yarn workspace @sujii/vue3-no-nuxt-app",
+    "storybook-server": "yarn workspace @sujii/vue3-no-nuxt-storybook-server",
+    "fixpack": "turbo fixpack",
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "type-check:app": "yarn app type-check",
+    "type-check": "run-s type-check:*",
+    "dev:app": "yarn app dev"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^2.0.9",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=21"
+  },
+  "private": true,
+  "packageManager": "pnpm@8.15.6",
+  "type": "module"
+}
